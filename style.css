@@ -1,0 +1,83 @@
+:root{
+    --btn-city-color: hsl(75, 94%, 57%);
+    --job-role-color: hsl(0, 0%, 20%);
+    --card-color: hsl(0, 0%, 12%);
+    --Background-color: hsl(0, 0%, 8%);
+    --font-family: "Inter", sans-serif;
+    --font-weight: 800;
+    --font-color:hsl(0, 0%, 100%);
+}
+body{
+    margin: auto;
+    padding: 0px;
+    font-family: var(--font-family);
+    background-color: var(--Background-color);
+}
+.container{
+    margin: auto;
+    width: 25%;
+    padding: 0px;
+    margin: 80px auto;
+    background-color: var(--card-color);
+    border-radius: 5px;
+    text-align: center;
+}
+.Details{
+    padding: 30px 10px 10px 10px;
+}
+.Details img{
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 30px auto;
+}
+h4{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    color: var(--font-color);
+    text-align: center;
+    padding-left: 10px;
+    margin: 0px;
+}
+h5{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    color: var(--btn-city-color);
+    text-align: center;
+    padding-left: 10px;
+    margin: 0px;
+}
+p{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    color: var(--font-color);
+    text-align: center;
+    padding-left: 10px;
+}
+button{
+    /* display: flex; */
+    width: 80%;
+    padding: 10px 40px 10px 40px ;
+    color: var(--font-color);
+    font-weight: var(--font-weight);
+    background-color: var(--Background-color);
+    border: none;
+    border-radius: 5px;
+}
+.div1{
+    /* width: 50%; */
+    padding: 5px 15px 20px 15px;
+}
+.div2{
+    padding: 5px 15px 20px 15px;
+}
+.div3{
+    padding: 5px 15px 20px 15px;
+}
+.div4{
+    padding: 5px 15px 20px 15px;
+}
+button:hover{
+    cursor: pointer;
+    color: var(--job-role-color);
+    background-color: var(--btn-city-color);
+}
